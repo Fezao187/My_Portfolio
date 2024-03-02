@@ -1,0 +1,162 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+        scroll-padding-top: 60px;
+    }
+
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 5;
+    color: #02020A;
+}
+
+body {
+    background-color: #02020A;
+}
+
+.jumbotron {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDCME_gFYSh_-xW0yRSX7ccIhE4EvSC6q8FA&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #e1e2ef;
+}
+
+.jumbotron h1 {
+    border-bottom: none;
+}
+
+.about {
+    color: #e1e2ef;
+}
+
+.about>h1,
+h1 {
+    text-align: center;
+    color: #b497d6;
+    border-bottom: 2px solid #b497d6;
+}
+
+div>p {
+    color: #f2f2f2;
+}
+
+.col-sm-3:hover{
+    border: 5px solid #b497d6;
+}
+
+.contact {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper .button {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #f2f2f2;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:hover {
+    width: 200px;
+}
+
+.wrapper .button .icon {
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 70px;
+    transition: all 0.3s ease-out;
+}
+
+i:hover{
+    color: #f2f2f2;
+}
+.wrapper .button :nth-child(1):hover .icon {
+    background: #b497d6;
+}
+
+.wrapper .button:nth-child(2):hover .icon {
+    background: #b497d6;
+}
+
+.wrapper .button:nth-child(3):hover .icon {
+    background: #4267b2;
+}
+
+.wrapper .button:nth-child(4):hover .icon {
+    background: #e1306c;
+}
+
+.wrapper .button:nth-child(5):hover .icon {
+    background: #1da1f2;
+}
+
+.wrapper .button:nth-child(6):hover .icon {
+    background: #ff0000;
+}
+
+.wrapper .button .icon i {
+    font-size: 30px;
+    line-height: 70px;
+    transition: all 0.3s ease-out;
+}
+
+.wrapper .button:nth-child(1) span {
+    color: #b497d6;
+    font-size: 20px;
+}
+
+.wrapper .button:nth-child(2) span {
+    color: #b497d6;
+    /* padding-right: 16px; */
+    font-size: 10px;
+}
+
+.wrapper .button:nth-child(3) span {
+    color: #4267b2;
+    padding-right: 16px;
+    font-size: 25px;
+}
+
+.wrapper .button:nth-child(4) span {
+    color: #e1306c;
+    padding-right: 14.5px;
+    font-size: 25px;
+}
+
+.wrapper .button:nth-child(5) span {
+    color: #1da1f2;
+    padding-right: 22px;
+    font-size: 35px;
+}
+
+.wrapper .button:nth-child(6) span {
+    color: #ff0000;
+    padding-right: 7.4px;
+    font-size: 30px;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
