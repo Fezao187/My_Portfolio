@@ -17,7 +17,7 @@ function handleSubmit() {
         /**TODO: Show th user they logged in (in a cool way),
          * for now just use an alert
          */
-        alert("You have successfully logged in");
+        open("confirm_page.html");
         setTimeout(function () {
             location.reload();
         }, 5000);
